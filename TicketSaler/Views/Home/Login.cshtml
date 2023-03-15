@@ -1,0 +1,11 @@
+﻿
+@{
+    ViewData["Title"] = "Login";
+}
+
+<h1>Login</h1>
+<form asp-action="Login"method="post" asp-controller="Home">
+   <input type="text" name="email" placeholder="E-mail"/>
+   <input type="password" name="password" placeholder="Password" />
+   <input type="submit"value="Sign in" />
+</form>
